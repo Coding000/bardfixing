@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Lively Bookstore</title>
+    <style>
+        body {
+            background-color: #faf0e6;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #f08080;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .header a {
+            text-decoration: none;
+            color: white;
+            margin-right: 20px;
+        }
+        .main {
+            padding: 20px;
+        }
+        .book-container {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .book-image {
+            width: 200px;
+            margin-right: 20px;
+        }
+        .book-details {
+            flex: 1;
+        }
+        .book-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .book-author, .book-genre {
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+        .book-synopsis {
+            text-align: justify;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f08080;
+            color: white;
+        }
+        /* Form Styles */
+        fieldset {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"], input[type="email"], select {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+        .radio-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+        .checkbox-container {
+            display: flex;
+            align-items: center;
+        }
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        .submit-button {
+            background-color: #f08080;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#">The Lively Bookstore</a>
+        <nav>
+            <a href="#">Contact</a>
+            <a href="#">Categories</a>
+            <a href="#">New Arrivals</a>
+        </nav>
+    </header>
+    <main class="main">
+        <h2>Featured Books</h2>
+        <div class="book-container">
+            <div class="book-image">
+                <img src="image1.jpg" alt="The Lord of the Rings Book Cover">
+            </div>
+            <div class="book-details">
+                <h3 class="book-title">The Lord of the Rings</h3>
+                <p class="book-author">J.R.R. Tolkien</p>
+                <p class="book-genre">Fantasy</p>
+                <p class="book-synopsis">In a quiet town, hobbits find themselves dragged into an epic quest to destroy an evil One Ring and save Middle-earth.</
